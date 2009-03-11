@@ -1,0 +1,15 @@
+--- #YAML:1.0
+name:                CGI-Application-Plugin-GenVal
+version:             0.01_01
+abstract:            Generate input forms with client/server
+license:             ~
+author:              
+    - Lyle Hopkins <webmaster@cosmicperl.com>
+generated_by:        ExtUtils::MakeMaker version 6.42_01
+distribution_type:   module
+requires:     
+    Test::More:                    0
+    YAML:                          0.67
+meta-spec:
+    url:     http://module-build.sourceforge.net/META-spec-v1.3.html
+    version: 1.3
