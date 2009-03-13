@@ -16,7 +16,7 @@ require Exporter;
     std => [ 'GenVal' ],
 );
 
-$VERSION = '0.01_01';
+$VERSION = '0.01_02';
 
 my $genval;
 
@@ -1037,12 +1037,12 @@ downgraded to an old style version for JavaScript:-
         required: yes
         constraint:
         - /^(([a-z0-9_\.\+\-\=\?\^\#]){1,64}\@(([a-z0-9\-]){1,251}\.){1,252}[a-z0-9]{2,4})$/i
-        - constraint: method FV_eq_with('email-confirm')
+        - method FV_eq_with('email-confirm')
       email-confirm:
         required: yes
         constraint:
         - /^(([a-z0-9_\.\+\-\=\?\^\#]){1,64}\@(([a-z0-9\-]){1,251}\.){1,252}[a-z0-9]{2,4})$/i
-        - constraint: method FV_eq_with('email')
+        - method FV_eq_with('email')
 
 This would generate Perl of:-
 
